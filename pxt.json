@@ -1,0 +1,24 @@
+{
+    "name": "clock-dd.mm.yyyy hh:mm:ss",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.6.15",
+        "DS1302": "github:makecode-extensions/ds1302#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
